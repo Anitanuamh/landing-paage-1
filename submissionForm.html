@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student-Submission-Form</title>
+    <link rel="stylesheet" href="submissionForm.css">
+</head>
+<body>
+    <div class="sub">
+        <h1>Student Paper Submission Form</h1>
+        <hr>
+        <label for="fname">Name *</label><br>
+        <input type="text" name=" " value="" placeholder=""><br><br>
+        <label for="Date">Date *</label><br>
+        <input type="datetime-local" id="datetime" name="datetime-local"><br><br>
+        <label for="email">Email *</label><br>
+        <input type="email" name="" value="" placeholder=""><br><br>
+        <label for="id">Student ID Number *</label><br>
+        <input type="id" name="" value="" placeholder=""><br><br>
+    <label for="text"> Title of Paper *</label><br>
+    <input type="text" name="" value="" placeholder=""><br><br>
+    <label for="textarea">abstract</label><br>
+    <textarea name="message" id="abstract" cols="50" rows="10"></textarea><br>
+    <label for="checkbox">Certification*</label><br>
+    <input type="checkbox" id="myCheck" onclick="myFunction()">
+    I certify that this paper is not under review elsewhere<br><br>
+    <label for="file">Attach a File*</label><br>
+    <input type="file" id="myfile" name="Choose File"><br><br>
+    <button class="btn submit">submit</button>
+    </div>
+</body>
+</html>

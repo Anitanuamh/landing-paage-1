@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    position: sticky;
+}
+.main{
+    font-family: "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+    background-color: azure;
+    padding: 30px;
+    position: relative;
+    margin: 40px;
+    cursor: pointer;
+    font-size: bold;
+    font-weight: normal;
+    scroll-behavior: smooth;
+    font-style: normal;
+}
+ul{
+    list-style: inside none;
+    position: sticky;
+    letter-spacing: 1px;
+    font-size: bold;
+    color: black;
+}
+button{
+    cursor: pointer;
+    opacity: 0.9;
+
+}

@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  align-items: center;
+  justify-content: center;
+  height: 100hv;
+  display: flex;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: chocolate;
+  
+  
+}
+.container{
+ border: 1px solid #5e113b;
+ height: 400px;
+ width: 500px;
+ text-align: center;
+ color: aqua;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font: 1em sans-serif;
+ margin: 40px;
+ padding: 20px;
+
+}
+.container p{
+  color: brown;
+  font-size: larger;
+  padding: 1px;
+  margin: 1px;
+  letter-spacing: normal;
+  
+}
+input[type=text], input[type=pwd],input[type=email],input[type=datetime-local],select[id=Gender] {
+align-items: right;
+margin: 5px;
+padding: 5px;
+align-content: stretch;
+display: right;
+height: 10px;
+border: 1px solid #5e113b;
+width: 30%;
+}
+label[for=text],label[for=pwd],label[for=email],label[for=datetime-local],label[for=Gender],label[for=Fname]{
+  text-align: left;
+  border: 1px solid #000;
+  background-color: #000;
+  initial-letter-align: left;
+}
+button{
+  height: 40px;
+  width: 30%;
+  margin: 30px;
+  padding: 5px;
+  background-color: aqua;
+  cursor: pointer;
+  opacity: 0.9;
+}
+button:hover {
+  opacity:1;
+}
+button:hover{
+  background-color:brown
+
+}

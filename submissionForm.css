@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: ;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    padding: 2px;
+}
+.sub{
+    background-color: bisque;
+    padding: 2px;
+    margin: 3px;
+    cursor: pointer;
+    font-size: 95%;
+    font-weight: bold;
+    color: #222;
+    line-height: 150%;
+}
+
+
+
+.sub:hover{
+    background-color: chartreuse;
+    cursor: pointer;
+}

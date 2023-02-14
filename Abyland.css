@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 1050px;   
+}
+.main{
+    background-image: url(images/ab3\ e.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 1050px;
+}
+.main img{
+   float: right;
+
+}
+.header{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 1050px;
+    
+}
+.header nav{
+    
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        pad: 18px 8%;
+        transition: background 1s;
+    
+}
+ul{
+    list-style-type: none;
+    display: inline;
+    word-spacing: 3px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-decoration: none;
+}
+li {
+    margin: 0 30px;
+    text-decoration: none;
+    display: inline;
+    word-spacing: 3px;
+}
+
+.style p{
+  float: left;
+  clear: both;
+  display: table;
+  line-height: 30px;
+  font-size: larger;
+  font-weight: 100px;
+  margin-left: 20px;
+  padding-top: 30px;
+}
+.style img{
+  float: right;
+  width: 280px;
+    height: 280px;
+
+}
+h3{
+  margin: 20px;
+  text-align: center;
+  padding: 0;
+}
+button{
+  background-color: #aa0478  ;
+  margin: 1px;
+  border-radius: 5%;
+  width: 130px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  font-size: 15px;
+  color: #ddd;
+  cursor: pointer;
+  opacity: 0.9;
+ 
+}
+button:hover{
+   background-color: #04aa12;
+   cursor: pointer;
+   opacity:1;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 25.25%;
+    padding: 5px;
+    position: fixed;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  h2 p{
+display: flex;
+text-align: left;
+width: 30px;
+  }
+  .avatar {
+   float: right;
+   width: 50 50%;
+   padding: 90px;
+   text-align: center;
+   font-size: small;
+
+   
+  }
+  .avatar img{
+    width: 240px;
+    height: 240px;
+    border-radius: 60%;
+  }
+   h4 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  

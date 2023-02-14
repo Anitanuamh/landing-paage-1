@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    align-items: center;
+    justify-content: center;
+background-color: aliceblue; 
+   height: 150vh;
+    display: flex;
+    width: 0 auto;
+    max-width: 900px;
+
+}
+.school{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+    align-items: center;
+background-color: darkolivegreen;
+width: 510px;
+
+}
+.school ol{
+    list-style-position: inside;
+    padding: 2px;
+    display: flex;
+   
+}
+.school hr{
+    height: 100%;
+
+}
+.second{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    background-color: darkolivegreen;
+    width: 510px;
+}
+.second ol{
+    list-style-position: inside;
+    padding: 2px;
+    display: flex;  
+}
+.thre{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+background-color: darkolivegreen;
+padding: 3px;
+margin: 2px;
+width: 530px;
+height: 187vh;
+
+}
+.thre ol {
+    list-style-position: inside;
+}
+.thre h1{
+    margin: 30px;
+    padding: 1px;
+    width: 30px;
+   text-align: center;
+}

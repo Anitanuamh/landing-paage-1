@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+ 
+ justify-content: center;
+  height: 120hv;
+  display: flex;
+  max-width: 1010px;
+  margin: 0 auto;
+background-image: url(ci.avif);
+background-size: cover;
+}
+
+.header{
+    padding: 30px;
+    margin: 1px;
+    font-size: bold;
+    background-color: whitesmoke;
+    margin-top: 10px;
+}
+
+input[type=text],input[type=email]{
+  margin: 5px;
+  width: 250px;
+  
+}
+label{
+text-align: justify;
+  font-size: large;
+  padding: 1px;
+}
+
+h1{
+font-size: medium;
+  
+  font-family: 'Times New Roman', Times, serif;
+
+}
+@media (min-width: 600px){
+aside{
+  flex-direction: row;
+}
+}
+aside{
+text-align: left;
+justify-content: left;
+width: 900px;
+height: 400px;
+margin: 0 auto;
+color: white;
+padding: 3px;
+margin-top: 10px;
+}
+aside p{
+  text-align: center;
+
+}
+aside h1{
+  text-decoration: underline;
+  padding: 2px;
+  margin: 5px;
+}
+aside h4{
+  margin: 30px;
+  padding: 1px;
+  text-decoration: underline;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.icon i {
+  display: inline-block;
+vertical-align: middle;
+}
+
+.icon h2,
+.icon h3,
+.icon h4 {
+  display: inline-block;
+  margin: 15px;
+  vertical-align: middle;
+  font-size: medium;
+}
+
+.icon p {
+  display: inline-block;
+  margin: 0;
+  vertical-align: middle;
+}
